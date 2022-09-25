@@ -1,0 +1,72 @@
+.review-heading {
+  margin-top: 100px;
+}
+.review-top-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ff3b00;
+}
+.review-second-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.avatars {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.card {
+  width: 352px;
+  height: 384px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.card-star {
+  margin: 47px 0 36px 0;
+}
+.card-star {
+  margin: 47px 0 36px 0;
+}
+.card-star img {
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+}
+.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #544e4e;
+  margin: 40px;
+  margin-bottom: 60px;
+}
+.red-customer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ff3b00;
+}
+.cust-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
