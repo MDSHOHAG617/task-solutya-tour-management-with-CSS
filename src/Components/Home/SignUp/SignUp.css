@@ -1,0 +1,67 @@
+.signup-box {
+  width: 1240px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: #3f3c33;
+  position: relative;
+  top: 700px;
+  left: 103px;
+}
+
+.newsletter {
+  font-style: normal;
+  line-height: 29px;
+  color: #ffffff;
+}
+.signIn-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.Destination-input {
+  text-align: center;
+  width: 372px;
+  height: 74px;
+  left: 411px;
+  top: 5040px;
+  border: none;
+  background: rgba(46, 36, 51, 0.5);
+  border-radius: 10px;
+}
+.email-input {
+  text-align: center;
+  width: 372px;
+  height: 74px;
+  left: 411px;
+  top: 5040px;
+  border: none;
+  background: rgba(46, 36, 51, 0.5);
+  border-radius: 10px;
+}
+.red-circle {
+  width: 68px;
+  height: 66px;
+  border-radius: 100%;
+  background: #ff3b00;
+}
+.mailSign {
+  width: 26px;
+  height: 18.37px;
+  color: rgb(0, 196, 75);
+  background: rgb(255, 0, 0);
+  position: relative;
+  right: 75px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: -200px;
+}
+.contact-text {
+  text-align: justify;
+}
