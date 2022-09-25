@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+.navbar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1441px;
+  height: 732px;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 82px;
+  top: 91px;
+}
+/* .main {
+  position: relative;
+} */
+
+.top-nav {
+  display: flex;
+  position: absolute;
+  left: 282px;
+  top: 43px;
+}
+
+.top-nav p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px;
+  color: #ffffff;
+}
+.top-nav-element {
+  padding-right: 15px;
+}
+.top-nav-element .vector {
+  margin-left: 2px;
+}
+.en {
+  padding: 4px;
+  position: relative;
+}
+
+.signUp-signIn {
+  margin-left: 660px;
+}
+.routes {
+  display: flex;
+  align-items: center;
+}
+.routes p {
+  margin-right: 41px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.routes .home {
+  color: red;
+}
+hr {
+  width: 61px;
+  height: 2px;
+  margin-top: 35px;
+  margin-left: 212px;
+  background: white;
+  position: absolute;
+  border: none;
+}
+.vector-2 {
+  margin-left: 170px;
+  width: 20px;
+  height: 20px;
+}
+.un {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 340px;
+  left: 217px;
+  color: white;
+  font-weight: 500;
+}
+.un .ellips2 {
+  margin-right: 11px;
+}
+.arizona-asia {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 120px 0 110px;
+  font-family: "Italiana", serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 113px;
+  margin-top: -465px;
+  color: white;
+  font-style: normal;
+}
+.lorem {
+  width: 318px;
+  height: 38px;
+  color: #ffffff;
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+  left: 106px;
+  top: 478px;
+}
+.booking-btn {
+  width: 137px;
+  height: 43px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 22px;
+}
+.left-book {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.book-now {
+  display: flex;
+  position: relative;
+  align-items: center;
+  left: 106px;
+  top: -38px;
+}
+.prev-nxt {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 200px;
+}
+
+.circle1 {
+  margin-right: 24px;
+}
+
+.pev-line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 40px;
+}
+.line {
+  position: relative;
+  left: -6.9px;
+  bottom: 0.5px;
+}
+.prev {
+  display: flex;
+  align-items: center;
+}
+.nxt {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 20px;
+}
+.nxt-line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 40px;
+}
+.letter {
+  position: relative;
+  left: 10px;
+}
