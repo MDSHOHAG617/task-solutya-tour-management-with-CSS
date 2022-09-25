@@ -1,0 +1,155 @@
+.tours {
+  position: relative;
+}
+.heading {
+  width: 446px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  position: absolute;
+  left: 78px;
+  top: 340px;
+}
+.lorem-tour {
+  color: black;
+  width: 332px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #645e5e;
+  position: absolute;
+  left: 115px;
+  top: 430px;
+}
+.second-div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 500px;
+}
+
+.see-tour {
+  position: absolute;
+  right: 50px;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 420px;
+}
+.right-div {
+  display: flex;
+  align-items: center;
+}
+.loremIpsum {
+  position: relative;
+  left: 103px;
+}
+.view-tour {
+  position: absolute;
+  right: 275px;
+}
+
+.austria-img {
+  width: 578px;
+  height: 361px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.country {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  top: 440px;
+}
+
+.left-austria {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  top: 20px;
+  left: 140px;
+  z-index: 10;
+  color: white;
+}
+.left-austria img {
+  margin-right: 7px;
+}
+
+.austria-circle {
+  width: 54.75px;
+  height: 51.76px;
+  position: absolute;
+  top: 40px;
+  left: 575px;
+  z-index: 10;
+}
+.austria-vector {
+  width: 20px;
+  height: 24px;
+  position: absolute;
+  top: 49px;
+  left: 592px;
+  z-index: 20;
+}
+.austria-lorem {
+  width: 347px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: justify;
+  color: #ffffff;
+  position: relative;
+  left: 139px;
+  top: -212px;
+}
+.austria-price {
+  width: 184px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  position: relative;
+  top: -220px;
+  left: 130px;
+}
+.star {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -265px;
+  left: 338px;
+}
+.star img {
+  margin-left: 8px;
+  width: 26px;
+  height: 22.78px;
+}
+
+.austria-review {
+  width: 91px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  position: relative;
+  top: -288px;
+  left: 540px;
+}

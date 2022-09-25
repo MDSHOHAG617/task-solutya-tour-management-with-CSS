@@ -11,6 +11,7 @@ import previous from "../../../images/left-vector.png";
 import next from "../../../images/right-vector.png";
 import line from "../../../images/line.png";
 import BannerBox from "../BannerBox/BannerBox";
+import PopularTours from "../PopularTours/PopularTours";
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
@@ -18,13 +19,7 @@ import BannerBox from "../BannerBox/BannerBox";
 
 const Navbar = () => {
   return (
-    <div
-      className="navbar"
-      //   style={{
-      //     backgroundImage: `${bannerImg}`,
-      //     // backgroundImage: `url("https://www.bottindia.com/wp-content/uploads/2022/04/photoholgic-jK9dT34TfuI-unsplash-750x354.jpg")`,
-      //   }}
-    >
+    <div className="navbar">
       <img src={bannerImg} alt="" />
       <div className="main">
         <div className="top-nav">
@@ -103,6 +98,7 @@ const Navbar = () => {
         </div>
       </div>
       <BannerBox></BannerBox>
+      <PopularTours></PopularTours>
     </div>
   );
 };
