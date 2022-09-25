@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
-import PopularTours from "./PopularTours/PopularTours";
-
+import "./Footer/Footer.css";
 const Home = () => {
   return (
     <div>

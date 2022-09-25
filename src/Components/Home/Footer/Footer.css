@@ -1,6 +1,6 @@
 .footer-box {
   width: 1440px;
-  height: 748px;
+  height: 701px;
   background-color: black;
   position: relative;
   top: 796px;
@@ -197,4 +197,64 @@
   position: absolute;
   top: 138px;
   left: 1002px;
+}
+.footer-email {
+  background: rgba(189, 176, 176, 0.8);
+  border-radius: 8px;
+  width: 339px;
+  height: 63px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  position: absolute;
+  top: 195px;
+  left: 1000px;
+  border: none;
+}
+.footer-subscribe {
+  background: #ff3b00;
+  border-radius: 8px;
+  width: 339px;
+  height: 63px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 272px;
+  left: 1000px;
+  border: none;
+}
+.agreement {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 351px;
+  left: 1000px;
+}
+.tick {
+  width: 13px;
+  height: 12.57px;
+  margin-right: 14px;
+}
+.agree {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.bottom-div {
+  width: 958px;
+  height: 154px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 547px;
+  left: 483px;
 }

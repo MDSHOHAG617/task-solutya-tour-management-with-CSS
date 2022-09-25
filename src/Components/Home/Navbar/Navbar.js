@@ -27,7 +27,7 @@ import Footer from "../Footer/Footer";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar ">
       <img src={bannerImg} alt="" />
       <div className="main">
         <div className="top-nav">

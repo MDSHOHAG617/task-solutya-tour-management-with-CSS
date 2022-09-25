@@ -4,6 +4,7 @@ import logo from "../../../images/logo-malekairinternational 1.png";
 import cell from "../../../images/cell.png";
 import email from "../../../images//email-logo.png";
 import location from "../../../images/location-logo.png";
+import agree from "../../../images/tickmark.png";
 
 const Footer = () => {
   return (
@@ -50,11 +51,32 @@ const Footer = () => {
               <p className="box-2-route4">Privacy Policy</p>
             </div>
           </div>
-
+          {/* box three  */}
           <div className="box-3">
             {" "}
             <h1 className="box3-head">Newsletter</h1>
+            <input
+              className="footer-email"
+              type="email"
+              value="Email Address"
+            />
           </div>
+          <input
+            className="footer-subscribe"
+            type="text"
+            name=""
+            c
+            value="Subscribe"
+            id=""
+          />
+          <div className="agreement">
+            <img className="tick" src={agree} alt="" />
+            <p className="agree">I agree to all terms and condition</p>
+          </div>
+        </div>
+
+        <div className="full-and-final-box">
+          <div className="bottom-div"></div>
         </div>
       </div>
     </div>
