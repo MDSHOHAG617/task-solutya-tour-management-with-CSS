@@ -1,0 +1,200 @@
+.footer-box {
+  width: 1440px;
+  height: 748px;
+  background-color: black;
+  position: relative;
+  top: 796px;
+}
+.footer-logo {
+  position: absolute;
+  left: 112px;
+  top: 138px;
+}
+.footer-lorem {
+  width: 288px;
+  height: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  position: absolute;
+  top: 261px;
+  left: 106px;
+  text-align: justify;
+}
+.horizontal-line {
+  width: 358px;
+  height: 0px;
+  border: 1px solid #ff3b00;
+  transform: rotate(-0.16deg);
+  position: absolute;
+  top: 331px;
+  left: -106px;
+  outline: none;
+}
+.cell {
+  bottom: 4.55%;
+  border: 2px solid #0e0e0e;
+  position: absolute;
+  top: 640px;
+  left: 106px;
+}
+.cell-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  position: absolute;
+  top: 620px;
+  left: 139px;
+}
+/* .email {
+  bottom: 4.55%;
+  border: 2px solid #0e0e0e;
+  position: absolute;
+  top: 680px;
+  left: 106px;
+} */
+.email-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  position: absolute;
+  top: 465px;
+  left: 139px;
+  margin-left: 5px;
+}
+.email {
+  top: 490px;
+}
+
+.location-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  position: absolute;
+  top: 510px;
+  left: 139px;
+  margin-left: 5px;
+}
+.location {
+  top: 530px;
+}
+
+/* right box */
+.box1-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  position: absolute;
+  top: 140px;
+  left: 557px;
+}
+.route1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 221px;
+  left: 557px;
+}
+.route2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 265px;
+  left: 557px;
+}
+.route3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 309px;
+  left: 557px;
+}
+.route4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 353px;
+  left: 557px;
+}
+.box2-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  position: absolute;
+  top: 138px;
+  left: 805px;
+}
+.box-2-route1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 221px;
+  left: 805px;
+}
+.box-2-route2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 265px;
+  left: 805px;
+}
+.box-2-route3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 309px;
+  left: 805px;
+}
+.box-2-route4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 353px;
+  left: 805px;
+}
+.box3-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  position: absolute;
+  top: 138px;
+  left: 1002px;
+}

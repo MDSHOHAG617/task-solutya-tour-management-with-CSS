@@ -18,6 +18,8 @@ import Partners from "../BrandPartners/Partners";
 import Reviews from "../Reviews/Reviews";
 import Blogs from "../Blogs/Blogs";
 import SignUp from "../SignUp/SignUp";
+import Gallery from "../Gallery/Gallery";
+import Footer from "../Footer/Footer";
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
@@ -111,6 +113,8 @@ const Navbar = () => {
       <Reviews></Reviews>
       <Blogs></Blogs>
       <SignUp></SignUp>
+      <Gallery></Gallery>
+      <Footer></Footer>
     </div>
   );
 };
