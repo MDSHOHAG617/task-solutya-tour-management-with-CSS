@@ -42,6 +42,7 @@ const PopularTours = () => {
           </div>
         </div>
       </div>
+
       {/* Austria and North Africa */}
 
       <div className="country">
@@ -70,9 +71,37 @@ const PopularTours = () => {
           </div>
           <div className="austria-review">3 reviews</div>
         </div>
-        <div className="northAmerica">
-          <img className="northAmerica-img" src={northAmerica} alt="" />
+        {/* north america */}
+        <div className="austria">
+          <div className="top-america">
+            <div className="left-america">
+              <img src={ellips2} alt="" />
+              <p>Austria</p>
+            </div>
+            <div className="right-america">
+              <img className="america-circle" src={ellips_circle} alt="" />
+              <img className="america-vector" src={austria_vector} alt="" />
+            </div>
+          </div>
+
+          {/* khela anei */}
+          <img className="austria-img" src={northAmerica} alt="" />
+
+          <p className="austria-lorem">Lorem Ipsum is simply dummy text.</p>
+          <p className="austria-price">5 days | from $500</p>
+
+          <div className="star">
+            <img src={redStar} alt="" />
+            <img src={redStar} alt="" />
+            <img src={redStar} alt="" />
+            <img src={blankStar} alt="" />
+            <img src={blankStar} alt="" />
+          </div>
+          <div className="austria-review">3 reviews</div>
         </div>
+        {/* <div className="northAmerica">
+          <img className="northAmerica-img" src={northAmerica} alt="" />
+        </div> */}
       </div>
     </div>
   );
