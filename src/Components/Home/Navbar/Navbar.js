@@ -16,6 +16,7 @@ import Destination from "../Destination/Destination";
 import Stories from "../Stories/Stories";
 import Partners from "../BrandPartners/Partners";
 import Reviews from "../Reviews/Reviews";
+import Blogs from "../Blogs/Blogs";
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
@@ -107,6 +108,7 @@ const Navbar = () => {
       <Stories></Stories>
       <Partners></Partners>
       <Reviews></Reviews>
+      <Blogs></Blogs>
     </div>
   );
 };

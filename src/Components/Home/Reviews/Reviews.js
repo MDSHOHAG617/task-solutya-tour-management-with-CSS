@@ -5,6 +5,8 @@ import person2 from "../../../images/second-person.png";
 import person3 from "../../../images/third-person.png";
 import redStar from "../../../images/red-star.png";
 import blankStar from "../../../images/blank-star.png";
+import ellips from "../../../images/Ellipse2.png";
+import pinkellips from "../../../images/pink-ellips.png";
 
 const Reviews = () => {
   return (
@@ -76,6 +78,11 @@ const Reviews = () => {
             <p className="red-customer">CUSTOMER</p>
           </div>
         </div>
+      </div>
+      <div className="next-card">
+        <img className="red-ellips" src={ellips} alt="" />
+        <img src={pinkellips} alt="" />
+        <img src={pinkellips} alt="" />
       </div>
     </div>
   );

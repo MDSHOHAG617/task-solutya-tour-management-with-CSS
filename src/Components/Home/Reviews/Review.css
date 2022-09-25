@@ -70,3 +70,16 @@
 
   color: #000000;
 }
+.next-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next-card img {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.red-ellips {
+  width: 16px;
+  height: 16px;
+}
