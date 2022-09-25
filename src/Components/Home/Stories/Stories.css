@@ -1,0 +1,77 @@
+.story-heading {
+  margin-left: 28px;
+}
+.flex-destination .stories-lorem {
+  margin-left: -7px;
+}
+/* .top-story {
+  display: inline-block;
+} */
+.another-countries {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0 50px 0 75px;
+  position: relative;
+  top: 200px;
+  row-gap: 42px;
+}
+.flag-russia {
+  position: absolute;
+  top: 100px;
+  left: 115px;
+}
+.name-russia {
+  position: absolute;
+  top: 185px;
+  left: 115px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+.flag-southPole {
+  position: absolute;
+  top: 100px;
+  left: 440px;
+}
+.name-southPole {
+  position: absolute;
+  top: 185px;
+  left: 410px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+.flag-africana {
+  position: absolute;
+  top: 100px;
+  left: 770px;
+}
+.name-africana {
+  position: absolute;
+  top: 185px;
+  left: 775px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+.flag-greece {
+  position: absolute;
+  top: 115px;
+  left: 1100px;
+}
+.name-greece {
+  position: absolute;
+  top: 185px;
+  left: 1100px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}

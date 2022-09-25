@@ -76,7 +76,7 @@ const PopularTours = () => {
           <div className="top-america">
             <div className="left-america">
               <img src={ellips2} alt="" />
-              <p>Austria</p>
+              <p>North Africa</p>
             </div>
             <div className="right-america">
               <img className="america-circle" src={ellips_circle} alt="" />

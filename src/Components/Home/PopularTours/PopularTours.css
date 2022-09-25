@@ -9,7 +9,7 @@
   font-size: 48px;
   line-height: 58px;
   position: absolute;
-  left: 78px;
+  left: 65px;
   top: 340px;
 }
 .lorem-tour {
@@ -48,11 +48,19 @@
 }
 .loremIpsum {
   position: relative;
-  left: 103px;
+  left: 90px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 .view-tour {
   position: absolute;
   right: 275px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .austria-img {
@@ -152,4 +160,36 @@
   position: relative;
   top: -288px;
   left: 540px;
+}
+
+.left-america {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 860px;
+  z-index: 10;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.left-america img {
+  margin-right: 10px;
+}
+
+.america-circle {
+  position: absolute;
+  top: 40px;
+  left: 1290px;
+  z-index: 10;
+}
+.america-vector {
+  position: absolute;
+  left: 1313px;
+  top: 55px;
+  z-index: 10;
 }

@@ -12,6 +12,8 @@ import next from "../../../images/right-vector.png";
 import line from "../../../images/line.png";
 import BannerBox from "../BannerBox/BannerBox";
 import PopularTours from "../PopularTours/PopularTours";
+import Destination from "../Destination/Destination";
+import Stories from "../Stories/Stories";
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
@@ -99,6 +101,8 @@ const Navbar = () => {
       </div>
       <BannerBox></BannerBox>
       <PopularTours></PopularTours>
+      <Destination></Destination>
+      <Stories></Stories>
     </div>
   );
 };

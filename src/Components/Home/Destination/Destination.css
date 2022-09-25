@@ -1,0 +1,104 @@
+.destination {
+  position: relative;
+  top: 240px;
+  left: 45px;
+}
+.flex-destination {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 200px;
+  left: 105px;
+}
+.view-all-dest {
+  position: absolute;
+  right: 188px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #645e5e;
+}
+.dest-lorem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #645e5e;
+  margin-bottom: 50px;
+}
+.top-countries {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 50px 0 75px;
+  position: relative;
+  top: 200px;
+  row-gap: 42px;
+}
+.dst-america {
+  position: absolute;
+  top: 78px;
+  left: 140px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.dst-maldives {
+  position: absolute;
+  top: 78px;
+  left: 568px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.dst-africa {
+  position: absolute;
+  top: 78px;
+  left: 1026px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.dst-japan {
+  position: absolute;
+  top: 410px;
+  left: 160px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.dst-australia {
+  position: absolute;
+  top: 410px;
+  left: 568px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.dst-india {
+  position: absolute;
+  top: 413px;
+  left: 1053px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inria Serif";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
