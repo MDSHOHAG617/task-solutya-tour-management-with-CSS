@@ -5,6 +5,10 @@ import cell from "../../../images/cell.png";
 import email from "../../../images//email-logo.png";
 import location from "../../../images/location-logo.png";
 import agree from "../../../images/tickmark.png";
+import arrow from "../../../images/downArrow.png";
+import fb from "../../../images/fblogo.png";
+import insta from "../../../images/instagramlogo.png";
+import twter from "../../../images/tweterlogo.png";
 
 const Footer = () => {
   return (
@@ -76,7 +80,23 @@ const Footer = () => {
         </div>
 
         <div className="full-and-final-box">
-          <div className="bottom-div"></div>
+          <div className="bottom-div">
+            <div className="down-arrow">
+              <div className="arrow-box">
+                <img className="arrow" src={arrow} alt="" />
+              </div>
+            </div>
+            <div className="right-footer-box">
+              <div className="social">
+                <img src={fb} alt="" />
+                <img src={twter} alt="" />
+                <img src={insta} alt="" />
+              </div>
+              <div className="copyright">
+                <p>@ All Copyright 2022, Solutya</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

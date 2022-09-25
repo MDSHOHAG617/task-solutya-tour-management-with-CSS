@@ -253,8 +253,42 @@
 .bottom-div {
   width: 958px;
   height: 154px;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   top: 547px;
-  left: 483px;
+  left: 482px;
+  border-radius: 10px 0 0 0;
+}
+.arrow-box {
+  width: 161px;
+  height: 154px;
+  border-radius: 10px 0 0 0;
+  background: #ff3b00;
+}
+.arrow {
+  position: absolute;
+  top: 64px;
+  left: 72px;
+}
+.social {
+  display: flex;
+  align-items: center;
+}
+.social img {
+  margin-right: 39px;
+}
+.right-footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  left: 80px;
+  top: -100px;
+}
+.copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2e2e2f;
 }
