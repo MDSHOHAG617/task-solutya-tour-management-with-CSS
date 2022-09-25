@@ -1,6 +1,9 @@
 import React from "react";
 import "./BannerBox.css";
 import location from "../../../images/location.png";
+import userchk from "../../../images/user-check.png";
+import checkOut from "../../../images/checkout.png";
+import travelers from "../../../images/travelers.png";
 
 const BannerBox = () => {
   return (
@@ -19,13 +22,45 @@ const BannerBox = () => {
 
         {/* rest part */}
         <div className="chk-in">
-          <div className="going-to">
+          <div className="going-to first-child">
             <img className="location-logo" src={location} alt="" />
             <p>Going to</p>
+          </div>
+          <div className="going-to">
+            <img className="chkIn-logo" src={userchk} alt="" />
+            <p>Check in</p>
+          </div>
+          <div className="going-to">
+            <img className="checkOut-logo" src={checkOut} alt="" />
+            <p>Check out</p>
+          </div>
+          <div className="going-to">
+            <img className="traveler-logo" src={travelers} alt="" />
+            <p>Travelers</p>
           </div>
         </div>
 
         {/*end rest part */}
+
+        <div className="input-boxes">
+          <input
+            className="location-box"
+            type="text"
+            name=""
+            placeholder="Location here"
+            id=""
+          />
+          <input className="chkIn-box" type="date" name="" id="" />
+          <input className="chkOut-box" type="date" name="" id="" />
+          <input
+            className="Travelers-box"
+            type="text"
+            placeholder="Travelers"
+            name=""
+            id=""
+          />
+          <button className="btn">Search</button>
+        </div>
       </div>
     </div>
   );
